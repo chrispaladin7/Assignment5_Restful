@@ -11,7 +11,7 @@ The web service contains four GET routes:
 </ul>
 
 ## Source Data
-I have used a static [JSON] as source for data. 
+I have used a static [JSON] as source for data(data.json). 
 
 ## Get Requests available 
 List all tvshows: localhost:8081/shows  
@@ -21,7 +21,7 @@ List a particular cast for individual tvshow: localhost:8081/shows/showId/cast/c
 
 Follow the below steps to create a local environment and run this Spring Boot Application
 ## Step 1:
-[Download] (The code from the Github Repository) and unzip the source repository or clone it
+[Download] (https://github.com/chrispaladin7/Assignment5_Restful.git) and unzip the source repository or clone it
 
 ## Step 2:
 In order to run the project you need to install the spring tool 4.4, you should have Docker,java JDK and Maven installed 
@@ -39,5 +39,5 @@ To see the details of individual tvshows: localhost:8081/shows/143 or localhost:
 To see the details of cast for individual tvshows: localhost:8081/shows/143/cast or localhost:8081/shows/329/cast or localhost:8081/shows/4123001/cast  
 To see the details of a particular cast for individual tvshows: localhost:8081/shows/143/cast/20942 or localhost:8081/shows/143/cast/27669 or localhost:8081/shows/329/cast/67991 or localhost:8081/shows/72/cast/5517 or localhost:8081/shows/72/cast/5368 
 
-## Step 6 (Optional)
+## Step 6 
 For the web page open "shows.html" to views the information on the shows 
